@@ -97,7 +97,7 @@ We follow [Gitflow Workflow](https://nvie.com/posts/a-successful-git-branching-m
 Clone the Ever Platform Git repo:
 
 ```
-git clone https://github.com/ever-co/ever-demand.git
+https://github.com/Sibghat001/ever-co-project.git
 ```
 
 **IMPORTANT NOTE:**
