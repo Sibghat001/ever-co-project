@@ -137,8 +137,6 @@ Note: the parallel build available using `yarn build` command
 
 ### Lerna (manual installation)
 
-We are using [Lerna](https://github.com/lerna/lerna) for mono-repo management.
-You need to run the following command from the working folder where you cloned Ever git repo, which install Lerna together with other packages:
 
 ```
 yarn
@@ -164,13 +162,6 @@ After Lerna bootstrap everything you need to run build for all projects as descr
 
 ### MongoDB
 
-Ever platform configured to use MongoDB by default and assume you have MongoDB service running and accepting connections on the default `localhost:27017`. Please see relevant section in our [documentation](https://github.com/ever-co/ever-demand/wiki/MongoDB).
-
-### Platform Configuration
-
-See relevant section in our [documentation](https://github.com/ever-co/ever-demand/wiki/Ever-Platform-Configuration).
-
-### Run Platform Projects
 
 After you build everything (`yarn build:all`, described above), each project from Ever Platform could be started by single command from this list:
 
@@ -204,49 +195,7 @@ According to [cloc](https://github.com/AlDanial/cloc) project, Ever Platform tod
 -   You are more than welcome to submit feature requests in the [separate repo](https://github.com/ever-co/feature-requests/issues)
 -   Pull requests are always welcome! Please base pull requests against the _develop_ branch and follow the [contributing guide](.github/CONTRIBUTING.md).
 
-## Contributors
 
-View full list of our [contributors](https://github.com/ever-co/ever-demand/graphs/contributors).
-
-## Contact Us
-
--   [Ever.co Website Contact Us page](https://ever.co/contacts)
--   [Discord Chat](https://discord.gg/msqRJ4w)
--   [Slack Community](https://join.slack.com/t/everplatform/shared_invite/enQtNzc2NzI1OTgwMjQwLTBkODI3OTU2ZDI1YTQwNWE3OGExYWUwYjE5NThkMjRiYjA0NmFiNzZhYWUzNWViNWI4Nzg2YTc3MzY2MjY0YzU)
--   [Spectrum Community](https://spectrum.chat/ever)
--   [Gitter Chat](https://gitter.im/ever-co/ever)
--   [CodeMentor](https://www.codementor.io/evereq)
--   [Telegram](https://t.me/everplatform)
--   For business inquiries: <mailto:ever@ever.co>
--   Please report security vulnerabilities to <mailto:security@ever.co>
--   [Ever Platform @ Twitter](https://twitter.com/everplatform)
--   [Ever Platform @ Facebook](https://www.facebook.com/everplatform)
-
-## Security
-
-Ever Platform follows good security practices, but 100% security cannot be guaranteed in any software!
-Ever Platform is provided AS IS without any warranty. Use at your own risk!
-See more details in the [LICENSE.md](LICENSE.md).
-
-In a production setup, all client-side to server-side (backend, APIs) communications should be encrypted using HTTPS/WSS/SSL (REST APIs, GraphQL endpoint, Socket.io WebSockets, etc.).
-
-If you discover any issue regarding security, please disclose the information responsibly by sending an email to <mailto:security@ever.co> or on [![huntr](https://cdn.huntr.dev/huntr_security_badge_mono.svg)](https://huntr.dev) and not by creating a GitHub issue.
-
-## License
-
-We support the open-source community. If you're building awesome non-profit/open-source projects, we're happy to help and will provide (subject to [acceptance criteria](https://github.com/ever-co/ever-demand/wiki/Free-license-and-hosting-for-Non-profit-and-Open-Source-projects)) Ever Demand Enterprise edition license and free hosting option! Feel free to contact us at <mailto:ever@ever.co> to make a request. More details explained in our [Wiki](https://github.com/ever-co/ever-demand/wiki/Free-license-and-hosting-for-Non-profit-and-Open-Source-projects).
-
-This software is available under following licenses:
-
--   [Ever® Demand™ Platform Community Edition](https://github.com/ever-co/ever-demand/blob/master/LICENSE.md#ever-platform-community-edition-license)
--   [Ever® Demand™ Platform Small Business](https://github.com/ever-co/ever-demand/blob/master/LICENSE.md#ever-platform-small-business-license)
--   [Ever® Demand™ Platform Enterprise](https://github.com/ever-co/ever-demand/blob/master/LICENSE.md#ever-platform-enterprise-license)
-
-#### The default Ever® Demand™ Platform license, without a valid Ever® Demand™ Platform Enterprise or Ever® Demand™ Platform Small Business License agreement, is the Ever® Demand™ Platform Community Edition License.
-
-#### Please see [LICENSE.md](LICENSE.md) for more information on licenses. You can also [compare our offering](https://ever.co/compare-ever/#compare).
-
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fever-co%2Fever.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fever-co%2Fever?ref=badge_large)
 
 ## Trademarks
 
@@ -272,7 +221,3 @@ All other brand and product names are trademarks, registered trademarks or servi
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lernajs.io)
 [![Crowdin](https://badges.crowdin.net/e/581540ddcc7c1cf42a50d0e0a6a3d7f7/localized.svg)](https://ever.crowdin.com/ever)
 
-## P.S.
-
--   If you are running any business or doing freelance, check our new project [Ever Gauzy](https://github.com/ever-co/ever-gauzy) - Open Business Management Platform (ERP/CRM/HRM)
--   [We are Hiring: remote TypeScript / NodeJS / NestJS / Angular & React developers](https://github.com/ever-co/jobs#available-positions)
